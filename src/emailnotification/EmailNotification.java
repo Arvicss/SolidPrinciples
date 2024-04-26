@@ -1,7 +1,6 @@
-import order.action.EmailNotificationSender;
-import order.action.InvoiceGenerator;
-import order.action.OrderPlacer;
-import order.action.TotalCalculator;
+package emailnotification;
+
+import emailnotification.EmailNotificationSender;
 
 public class EmailNotification implements EmailNotificationSender {
     @Override
