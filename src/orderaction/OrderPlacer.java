@@ -1,6 +1,5 @@
 package orderaction;
 
-public interface Order {
+public interface OrderPlacer {
     public void placeOrder(String customerName, String address);
-    public void calculateTotal(double price, int quantity);
 }

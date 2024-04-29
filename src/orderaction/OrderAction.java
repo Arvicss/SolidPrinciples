@@ -1,6 +1,6 @@
 package orderaction;
 
-public class OrderAction implements Order {
+public class OrderAction implements OrderPlacer, TotalCalculator {
     @Override
     public void placeOrder(String customerName, String address) {
         // Simulate placing order in a system
